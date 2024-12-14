@@ -37,10 +37,11 @@ Stay tuned as we transition from foundational techniques to advanced predictive 
 
 ## Inspiration and Acknowledgments
 
-This Python implementation is inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/) and builds upon:
+This Python implementation is inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/). Similar analyses have been conducted in R using earlier datasets, such as:
 
-- Problem statements and preparation guides from the Fall 2021 home exam for BAN400.
-- [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized the 2021 dataset. This project updates the analysis for 2024 with an enhanced Python approach.
+- [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized 2021 data.
+
+Building on these foundations, this project transitions the analysis to Python, leveraging tools like `pandas`, `scikit-learn`, and `folium` to provide an enhanced and updated perspective using 2024 data.
 
 A notable feature in this implementation is the use of Python's `folium` library for geospatial visualization. This approach mirrors the functionality of the `leaflet` package in R, leveraging free OpenStreetMap data to create an interactive mapping experience, complete with zoom controls, hover effects, and categorical markers.
 
