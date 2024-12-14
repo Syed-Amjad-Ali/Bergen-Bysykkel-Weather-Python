@@ -1,2 +1,52 @@
-# Bergen-Bysykkel-Weather-Python
-Analyzing Bergen Bysykkel 2024 data with Python, this project integrates weather insights to explore bike usage patterns and station activity. It features advanced visualizations and predictive modeling, showcasing Python's versatility for data analysis.
+# Bergen Bysykkel 2024: Python Edition - Cleaning, Predicting, and Mapping (Part 1)
+
+This is Part 1 of a two-part analysis exploring Bergen's bicycle rental trends, now implemented in Python! In this installment, we perform **data cleaning**, build **basic predictive models**, and end with an **interactive map** showcasing bike traffic across stations. Part 2 will delve deeper into advanced methods, integrating weather data for precision modeling and actionable insights.
+
+## Data Sources
+
+- **[Bysykkel Data](https://bergenbysykkel.no/apne-data/historisk)**: Historical bike rental data provided by Bergen Bysykkel.
+- **[Weather Data](https://seklima.met.no/observations/?fbclid=IwY2xjawHC3BlleHRuA2FlbQIxMAABHR-1J8AxQO7W68khnBEDM7aVue4GLeWghu0CrBYHs3b1dowE8Wq2u1oBXQ_aem_HFWzKgdTgLH6cHBCCTq4RA)**: Hourly weather observations obtained from SeKlima.
+
+## Highlights of Part 1
+
+1. **Python-Powered Data Cleaning**:
+   - Combined hourly bike rental data for 2024 into a clean and structured format.
+   - Addressed missing values, ensured consistent timestamps, and added derived features (e.g., weekday, hour).
+
+2. **Foundational Predictive Modeling**:
+   - Utilized Python's `scikit-learn` library for linear regression to predict hourly rentals by station, weekday, and time.
+
+3. **Interactive Mapping**:
+   - Created an engaging map using Python's `folium` library to visualize station activity, complete with color-coded markers and popups.
+
+## What’s Coming in Part 2?
+
+- Integration of weather data to evaluate its influence on bike rentals.
+- Advanced predictive models leveraging machine learning techniques.
+- Comparative analysis of model performances.
+
+Stay tuned as we transition from foundational techniques to advanced predictive analytics in Python!
+
+## Getting Started
+
+### Requirements
+- Python version >= 3.8
+- Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `folium`, etc.
+
+
+
+## Inspiration and Acknowledgments
+
+This Python implementation is inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/) and builds upon:
+
+- Problem statements and preparation guides from the Fall 2021 home exam for BAN400.
+- [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized the 2021 dataset. This project updates the analysis for 2024 with an enhanced Python approach.
+
+A notable feature in this implementation is the use of Python's `folium` library for geospatial visualization. This approach mirrors the functionality of the `leaflet` package in R, leveraging free OpenStreetMap data to create an interactive mapping experience, complete with zoom controls, hover effects, and categorical markers.
+
+---
+
+## Legal and Ethical Notes
+
+- This project references the BAN400 preparation material as a learning guide while ensuring originality in its implementation.
+- All work is aligned with NHH’s academic integrity guidelines and complies with the Bergen Bysykkel API's open-source licensing.
