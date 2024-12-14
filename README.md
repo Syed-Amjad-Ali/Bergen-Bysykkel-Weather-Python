@@ -37,7 +37,7 @@ Stay tuned as we transition from foundational techniques to advanced predictive 
 
 ## Inspiration and Acknowledgments
 
-The initial problem framing and directions for this project are inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/). The earliest solution to this exam available on GitHub is:
+The initial problem framing and directions for this project are inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/). To my knowledge, the earliest solution to this exam available on GitHub is:
 
 - [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized 2021 data and was implemented in R.
 
