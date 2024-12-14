@@ -37,9 +37,9 @@ Stay tuned as we transition from foundational techniques to advanced predictive 
 
 ## Inspiration and Acknowledgments
 
-This Python implementation is inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/). Similar analyses have been conducted in R using earlier datasets, such as:
+The initial problem framing and directions for this project are inspired by the **BAN400** course at the [Norwegian School of Economics (NHH)](https://www.nhh.no/en/courses/r-programming-for-data-science/). The earliest solution to this exam available on GitHub is:
 
-- [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized 2021 data.
+- [Hoa Nguyen’s Bergen Bysykkel Analysis](https://github.com/hoanguyen18/Bergen-Bysykkel-), which utilized 2021 data and was implemented in R.
 
 Building on these foundations, this project transitions the analysis to Python, leveraging tools like `pandas`, `scikit-learn`, and `folium` to provide an enhanced and updated perspective using 2024 data.
 
